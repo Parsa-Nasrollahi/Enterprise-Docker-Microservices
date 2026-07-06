@@ -153,7 +153,7 @@ Deployment & Socket-Binding: Ausrollen des Portainer-Containers mittels docker-c
 
 Security Timeout Handling: Erfolgreiches Troubleshooting des initialen Sicherheits-Timeouts (Setup Token Requirement) durch gezielten Container-Neustart zur sicheren Anlage des Admin-Kontos.
 
-Zero-Trust Routing: Der interne Port 9000 wurde analog zu den anderen Services über den Nginx Proxy Manager und den Cloudflare Tunnel als docker.parsansl.de mit erzwungenem HTTPS (Let's Encrypt) nach außen isoliert.
+Zero-Trust Routing: Der interne Port wurde analog zu den anderen Services über den Nginx Proxy Manager und den Cloudflare Tunnel als monitor.parsansl.de mit erzwungenem HTTPS (Let's Encrypt) nach außen isoliert.
 
 Result:
 Die gesamte Container-Infrastruktur kann nun über ein intuitives Web-Interface zentral gesteuert und überwacht werden. Die Lösung bietet Live-Metriken, vereinfachte Log-Analysen und Container-Management mit maximaler Sicherheit durch die etablierte Zero-Trust-Architektur.
